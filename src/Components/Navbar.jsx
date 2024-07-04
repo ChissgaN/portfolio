@@ -28,7 +28,7 @@ const Navbar = ({ toggleAbout, toggleRobot }) => {
   return (
     <div className="flex justify-between items-center bg-[#191919] text-[#A7A7A7] w-full">
       <img
-        className="hover:scale-110 transition duration-200 ease-in-out pl-[10%] md:w-[250px] md:h-[85px] max-md:w-[225px] max-md:h-14"
+        className="hover:scale-110 transition duration-200 ease-in-out pl-[10%] md:w-[275px] md:h-[100px] max-md:w-[225px] max-md:h-14"
         src={icono}
         alt="Logo"
       />
