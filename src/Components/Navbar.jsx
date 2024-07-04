@@ -60,7 +60,7 @@ const Navbar = ({ toggleAbout, toggleRobot }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-[35px] w-[35px] text-[#E1306C] hover:text-blue-500" />
+          <FaInstagram className="max-md:hidden transform hover:scale-[1.2] transition duration-300 ease-in-out h-[35px] w-[35px] text-[#E1306C] hover:text-blue-500" />
         </a>
       </div>
     </div>
