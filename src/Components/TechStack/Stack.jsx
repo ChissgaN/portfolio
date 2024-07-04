@@ -10,10 +10,10 @@ export default function Infoicon() {
     dots: false,
     infinite: true,
     autoplay: true,
-    speed: 3000, // Aumentar la velocidad para transiciones más suaves
+    speed: 3000, 
     slidesToShow: 8,
     slidesToScroll: 1,
-    cssEase: "linear", // Asegura un desplazamiento continuo y suave
+    cssEase: "linear", 
     responsive: [
       {
         breakpoint: 1024,
