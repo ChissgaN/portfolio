@@ -3,8 +3,8 @@ import Stack from "./Stack";
 
 const Techstack = () => {
   return (
-    <div>
-      <h2 className="w-[30%] mx-auto mt-[10%] text-5xl text-center font-semibold leading-tight  text-[#CCCCCC] max-md:text-[34px] max-sm:text-[26px]">
+    <div className="max-md:mt-[125px]">
+      <h2 className="w-[30%] mx-auto mt-[10%]  text-5xl text-center font-semibold leading-tight  text-[#CCCCCC] max-md:text-[34px] max-sm:text-[26px]">
         My Tech Stack
       </h2>
 

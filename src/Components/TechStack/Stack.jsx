@@ -59,10 +59,10 @@ export default function Infoicon() {
           <FaReact size={74} color="#61DAFB" />
         </div>
         <div className=" w-[74px] h-[74px]">
-          <SiLaravel size={74} color="#FF2D20" />
+          <FaPhp size={74} color="#777BB4" />
         </div>
         <div className=" w-[74px] h-[74px]">
-          <FaPhp size={74} color="#777BB4" />
+          <SiLaravel size={74} color="#FF2D20" />
         </div>
         <div className=" w-[74px] h-[74px]">
           <SiTailwindcss size={74} color="#38B2AC" />

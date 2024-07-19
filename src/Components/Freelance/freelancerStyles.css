@@ -1,0 +1,22 @@
+@keyframes gradient-spinner {
+    0% {
+      border-color: transparent transparent #3b82f6 #ec4899;
+    }
+    25% {
+      border-color: transparent #3b82f6 #ec4899 transparent;
+    }
+    50% {
+      border-color: #3b82f6 #ec4899 transparent transparent;
+    }
+    75% {
+      border-color: #ec4899 transparent transparent #3b82f6;
+    }
+    100% {
+      border-color: transparent transparent #3b82f6 #ec4899;
+    }
+  }
+  
+  .animate-gradient-spin {
+    animation: gradient-spinner 1s linear infinite;
+  }
+  

@@ -1,0 +1,13 @@
+@keyframes gradient-border {
+    0%, 100% { border-image-source: linear-gradient(to top, #3b82f6, #ec4899); }
+    25% { border-image-source: linear-gradient(to right, #3b82f6, #ec4899); }
+    50% { border-image-source: linear-gradient(to bottom, #3b82f6, #ec4899); }
+    75% { border-image-source: linear-gradient(to left, #3b82f6, #ec4899); }
+  }
+  
+  .animate-gradient-border {
+    border-image-slice: 1;
+    border-width: 4px;
+    animation: gradient-border 2s infinite linear;
+  }
+  
