@@ -19,10 +19,10 @@ export default function About() {
                 Hello! I'm Jairo, a dedicated software developer focused on crafting innovative solutions. I excel in designing, developing, and maintaining high-quality applications and systems.
               </p>
               <p className="mt-4 text-gray-300 leading-relaxed">
-                My approach extends beyond just writing code. I aim to understand user needs and translate them into intuitive, functional products that enhance the user experience. My versatility with various technologies and methodologies allows me to adapt swiftly to new challenges in the development world.
+                My approach extends beyond just writing code. I love to understand user needs and translate them into intuitive and functional products that enhance the user experience. My versatility with various technologies and methodologies allows me to adapt swiftly to new challenges in the development world.
               </p>
               <p className="mt-4 text-gray-300 leading-relaxed">
-                I highly value collaboration and teamwork. I thrive in multidisciplinary environments where I can learn and contribute diverse perspectives. My goal is to continue growing professionally and contribute to exciting, meaningful projects. I'm always open to new opportunities and challenges to expand my skills and make a difference in technology.
+              I'm always eager to learn new things and collaborate with talented individuals. My goal is to continue growing as a developer and contribute to projects that make a positive impact on the world.
               </p>
             </div>
           </div>
@@ -34,6 +34,20 @@ export default function About() {
               </h1>
             </div>
             <div className="bg-gray-700 p-6 rounded-lg">
+            <div className="flex flex-col sm:flex-row items-center justify-between mt-6">
+                <p className="text-[25px] text-gray-400">Higher Education</p>
+                <span className="flex w-[84px] h-[24px] text-[10px] font-bold rounded-xl bg-green-100 text-green-600 px-2 items-center justify-center mt-2 sm:mt-0">
+                  Part Time
+                </span>
+              </div>
+              <div className="flex flex-col sm:flex-row justify-between items-center mt-2">
+                <div className="flex items-center">
+                  <FaSchool className="text-[#A7A7A7]" size={16} />
+                  <p className="text-[12px] text-gray-400 ml-2">BYU Pathway Woldwide</p>
+                </div>
+                <span className="text-[12px] text-gray-400 mt-2 sm:mt-0"> Sep 2024 - Currently</span>
+              </div>
+              
               <div className="flex flex-col sm:flex-row items-center justify-between mt-6">
                 <p className="text-[25px] text-gray-400">Fullstack Certification</p>
                 <span className="flex w-[84px] h-[24px] text-[10px] font-bold rounded-xl bg-green-100 text-green-600 px-2 items-center justify-center mt-2 sm:mt-0">
